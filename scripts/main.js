@@ -16,7 +16,7 @@ myButton.onclick = function() {
 
 // Image switcher code
 
-const myImage = document.querySelector('img');
+let myImage = document.querySelector('img');
 
 
 myImage.onclick = () => {
