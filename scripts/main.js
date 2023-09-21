@@ -19,7 +19,6 @@ myButton.onclick = function() {
 let myImage = document.querySelector('img');
 
 
-
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/firefox-icon.png") {
